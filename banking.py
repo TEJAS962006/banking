@@ -1,4 +1,4 @@
-balance = 30000
+5balance = 30000
 passbook = []
 def deposit():
     global balance
@@ -47,3 +47,5 @@ while tocontinue == True:
         tocontinue = False
     else:
         print("Invalid Choice!")
+
+print("----______------")
